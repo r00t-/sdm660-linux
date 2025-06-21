@@ -1,0 +1,29 @@
+// SPDX-License-Identifier: GPL-2.0-only
+/*
+ * Copyright (c) 2025, Paul Sajna <hello@paulsajna.com>
+ */
+
+/dts-v1/;
+
+#include "sdm636-bbry-luna-common.dtsi"
+
+/ {
+	compatible = "bbry,luna-syna", "qcom,sdm636";
+};
+
+&panel {
+	compatible = "syna,td4300-panel";
+
+	panel-timing {
+		clock-frequency = <127280160>;
+		hactive = <1080>;
+		hsync-len = <2>;
+		hfront-porch = <120>;
+		hback-porch = <40>;
+
+		vactive = <1620>;
+		vsync-len = <2>;
+		vfront-porch = <8>;
+		vback-porch = <6>;
+	};
+};
