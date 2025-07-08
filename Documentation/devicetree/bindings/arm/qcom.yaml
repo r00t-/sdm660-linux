@@ -897,6 +897,7 @@ properties:
               - xiaomi,tulip
               - xiaomi,whyred
               - motorola,beckham
+              - bbry,luna
           - const: qcom,sdm636
 
       - items:
