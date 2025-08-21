@@ -92,6 +92,14 @@
 		};
 	};	
 
+	/* Dummy regulator until PM6660 has LCDB VSP/VSN support */
+	lcdb_dummy: regulator-lcdb-dummy {
+		compatible = "regulator-fixed";
+		regulator-name = "lcdb_dummy";
+		regulator-min-microvolt = <5500000>;
+		regulator-max-microvolt = <5500000>;
+	};
+
 	reserved-memory {
 		#address-cells = <0x02>;
 		#size-cells = <0x02>;

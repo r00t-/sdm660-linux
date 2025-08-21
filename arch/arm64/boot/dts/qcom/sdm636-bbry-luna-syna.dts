@@ -13,6 +13,9 @@
 
 &panel {
 	compatible = "syna,td4300-panel";
+	vio-supply = <&vreg_l9a_1p8>;
+	vsn-supply = <&lcdb_dummy>;
+	vsp-supply = <&lcdb_dummy>;
 
 	panel-timing {
 		clock-frequency = <127280160>;
