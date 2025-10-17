@@ -10,7 +10,7 @@
 
 /delete-node/ &qhee_code;
 /delete-node/ &tz_mem;
-/delete-node/ &buffer_mem;
+/delete-node/ &cdsp_region;
 /delete-node/ &zap_shader_region;
 /delete-node/ &rmtfs_mem;
 
